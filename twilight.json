@@ -341,7 +341,7 @@
           "icon": "sicon-format-text-alt",
           "label": "عنوان رئيسي",
           "multilanguage": true,
-          "id": "slides.title",
+          "id": "title",
           "value": null,
           "required": false,
           "format": "text",

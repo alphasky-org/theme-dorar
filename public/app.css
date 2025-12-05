@@ -303,7 +303,7 @@ body.mm-ocd-opened{overflow-y:hidden;overscroll-behavior:none}
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
-  border-color: #e5e7eb; /* 2 */
+  border-color: #ffffff; /* 2 */
 }
 ::before,
 ::after {
@@ -1595,8 +1595,8 @@ select {
 }
 .border-gray-200 {
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .border-green-300 {
     --tw-border-opacity: 1;
@@ -2158,8 +2158,8 @@ select {
     width: 100%;
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
@@ -2322,8 +2322,8 @@ select {
     width: 100%;
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
@@ -2356,8 +2356,8 @@ select {
     width: 100%;
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     font-size: 0.875rem;
     line-height: 1.25rem;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
@@ -2605,8 +2605,8 @@ textarea.s-input {
 .s-accordion-wrapper-bordered {
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .s-accordion-head-wrapper {
     display: flex;
@@ -3259,8 +3259,8 @@ input[type=radio].sr-only:checked ~ div.s-app-install-alert-cancel-button {
     border-radius: 4px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 0.625rem;
     padding-right: 0.625rem;
     padding-top: 0.25rem;
@@ -3281,8 +3281,8 @@ input[type=radio].sr-only:checked ~ div.s-app-install-alert-cancel-button {
 }
 .s-booking-field-reservations-has-time {
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .s-booking-field-reservations-has-time:where([dir="ltr"], [dir="ltr"] *) {
     margin-right: 1rem;
@@ -3979,8 +3979,8 @@ input[type=radio].sr-only:checked ~ div.s-app-install-alert-cancel-button {
 }
 .s-button-light-outline {
     --tw-border-opacity: 1 !important;
-    border-color: rgba(229, 231, 235, 1) !important;
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1)) !important;
+    border-color: rgba(255, 255, 255, 1) !important;
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1)) !important;
 }
 .s-button-light-outline {
     --tw-bg-opacity: 1;
@@ -3993,8 +3993,8 @@ input[type=radio].sr-only:checked ~ div.s-app-install-alert-cancel-button {
 }
 .s-button-light-outline:hover {
     --tw-border-opacity: 1 !important;
-    border-color: rgba(229, 231, 235, 1) !important;
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1)) !important;
+    border-color: rgba(255, 255, 255, 1) !important;
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1)) !important;
 }
 .s-button-primary-link {
     fill: #414042;
@@ -4414,8 +4414,8 @@ input[type=radio].sr-only:checked ~ div.s-cart-summary-count {
     border-radius: .75rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.75rem;
@@ -4540,8 +4540,8 @@ input[type=radio].sr-only:checked ~ div.s-cart-summary-count {
     display: block;
     border-bottom-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-bottom: 2rem;
 }
 .s-comments-item:last-child {
@@ -4606,8 +4606,8 @@ input[type=radio].sr-only:checked ~ div.s-cart-summary-count {
     display: inline-block;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     padding-left: 0.625rem;
     padding-right: 0.625rem;
     padding-top: 0.125rem;
@@ -5143,8 +5143,8 @@ input[type=radio].sr-only:checked ~ div.s-conditional-offer-checkpoint-label {
 .s-contacts-topnav-link {
     display: inline-block;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1px;
@@ -5784,8 +5784,8 @@ input[type=radio].sr-only:checked ~ div.s-drawer-close {
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
@@ -6053,8 +6053,8 @@ input[type=radio].sr-only:checked ~ div.s-drawer-close {
     border-width: 1px;
     border-style: dashed;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -6360,8 +6360,8 @@ input[type=radio].sr-only:checked ~ div.s-file-upload-profile-image .s-file-uplo
     width: 1.25rem;
     border-radius: 6px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     color: #414042;
     color: var(--color-primary);
 }
@@ -6690,8 +6690,8 @@ input[type=radio].sr-only:checked ~ div.s-file-upload-profile-image .s-file-uplo
     border-radius: 0.75rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding: 1.25rem;
     text-align: center;
 }
@@ -6799,8 +6799,8 @@ input[type=radio].sr-only:checked ~ div.s-file-upload-profile-image .s-file-uplo
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
@@ -6815,8 +6815,8 @@ input[type=radio].sr-only:checked ~ div.s-file-upload-profile-image .s-file-uplo
     height: 1px;
     flex: 1 1 auto;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     --tw-content: '';
     content: '';
     content: var(--tw-content);
@@ -6826,8 +6826,8 @@ input[type=radio].sr-only:checked ~ div.s-file-upload-profile-image .s-file-uplo
     height: 1px;
     flex: 1 1 auto;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     --tw-content: '';
     content: '';
     content: var(--tw-content);
@@ -6842,8 +6842,8 @@ input[type=radio].sr-only:checked ~ div.s-file-upload-profile-image .s-file-uplo
     margin-right: 0.5rem;
     border-radius: 0.5rem;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.25rem;
@@ -7135,7 +7135,7 @@ input[type=radio].sr-only:checked ~ div.s-gifting-remove-preview {
     margin-right: auto;
     height: 4rem;
     width: 3rem;
-    fill: #e5e7eb;
+    fill: #ffffff;
 }
 .s-gifting-filepond-placeholder-text {
     font-size: 0.75rem !important;
@@ -7308,8 +7308,8 @@ input[type=radio].sr-only:checked ~ div.s-gifting-remove-preview {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     background-position: right;
     background-repeat: no-repeat;
     padding-left: 1rem;
@@ -7388,8 +7388,8 @@ input[type=radio].sr-only:checked ~ div.s-gifting-remove-preview {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -7464,8 +7464,8 @@ input[type=radio].sr-only:checked ~ div.s-gifting-remove-preview {
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 input[type=radio].sr-only div.s-loyalty-prize-item-check {
   transition: all 0.3s;
@@ -7489,8 +7489,8 @@ input[type=radio].sr-only:checked ~ div.s-loyalty-prize-item-check {
     justify-content: center;
     border-top-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding: 0.75rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -7813,8 +7813,8 @@ input[type=radio].sr-only:checked ~ div.s-loyalty-prize-item-check {
 }
 .s-loyalty-program-unrated-text {
     --tw-text-opacity: 1;
-    color: rgba(229, 231, 235, 1);
-    color: rgba(229, 231, 235, var(--tw-text-opacity, 1));
+    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, var(--tw-text-opacity, 1));
 }
 .s-loyalty-program-no-content {
     display: flex;
@@ -8363,8 +8363,8 @@ input[type=radio].sr-only:checked ~ div.s-map-my-location-button {
 .s-menu-topnav-item {
     display: inline-block;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1px;
@@ -8418,8 +8418,8 @@ input[type=radio].sr-only:checked ~ div.s-map-my-location-button {
          column-gap: 0.5rem;
     border-bottom-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-bottom: 0.75rem;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -8607,8 +8607,8 @@ input[type=radio].sr-only:checked ~ div.s-modal-close {
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
@@ -8926,8 +8926,8 @@ input[type=radio].sr-only:checked ~ div.s-modal-close {
 }
 .s-multiple-bundle-product-slide-one-third-disabled .s-multiple-bundle-product-button {
     --tw-text-opacity: 1;
-    color: rgba(229, 231, 235, 1);
-    color: rgba(229, 231, 235, var(--tw-text-opacity, 1));
+    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, var(--tw-text-opacity, 1));
 }
 .s-multiple-bundle-product-card {
     position: relative;
@@ -8940,8 +8940,8 @@ input[type=radio].sr-only:checked ~ div.s-modal-close {
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .s-multiple-bundle-product-checkbox {
     position: absolute;
@@ -9064,8 +9064,8 @@ input[type=radio].sr-only:checked ~ div.s-multiple-bundle-product-checkbox {
     gap: 0.25rem;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-size: 7px;
@@ -9152,8 +9152,8 @@ input[type=radio].sr-only:checked ~ div.s-multiple-bundle-product-checkbox {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(243, 244, 246, 1);
     background-color: rgba(243, 244, 246, var(--tw-bg-opacity, 1));
@@ -9295,8 +9295,8 @@ input[type=radio].sr-only:checked ~ div.s-multiple-bundle-product-checkbox {
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -9529,8 +9529,8 @@ input[type=radio].sr-only:checked ~ div.s-offer-corner-badge {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -10003,8 +10003,8 @@ input[type=radio].sr-only:checked ~ div.s-offer-bank-payment-discount-percent {
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 @media (min-width: 640px) {
     .s-offer-modal-header-icon {
@@ -10093,8 +10093,8 @@ input[type=radio].sr-only:checked ~ div.s-offer-bank-payment-discount-percent {
     width: 1.5rem;
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     color: #414042;
     color: var(--color-primary);
 }
@@ -10404,8 +10404,8 @@ input[type=radio].sr-only:checked ~ div.s-offer-bank-payment-discount-percent {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -10622,8 +10622,8 @@ input[type=radio].sr-only:checked ~ div.s-offer-bank-payment-discount-percent {
     justify-content: space-between;
     border-bottom-width: 1px;
     --tw-border-opacity: 1;
-    border-bottom-color: rgba(229, 231, 235, 1);
-    border-bottom-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-bottom-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-bottom: 0.5rem;
 }
 .s-order-summary-code-item-wrapper:last-child {
@@ -10952,8 +10952,8 @@ input[type=radio].s-order-totals-card-heading:checked ~ div.absolute {
 }
 .s-orders-unrated-text {
     --tw-text-opacity: 1;
-    color: rgba(229, 231, 235, 1);
-    color: rgba(229, 231, 235, var(--tw-text-opacity, 1));
+    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, var(--tw-text-opacity, 1));
 }
 .s-orders-no-content {
     display: flex;
@@ -11195,7 +11195,7 @@ input[type=radio].sr-only:checked ~ div.s-orders-table-tbody-tr a {
 }
 .s-placeholder-icon {
     margin-bottom: 1rem;
-    fill: #e5e7eb;
+    fill: #ffffff;
 }
 .s-placeholder-align-left {
     text-align: left;
@@ -11303,8 +11303,8 @@ input[type=radio].sr-only:checked ~ div.s-price-range-input {
     z-index: 10;
     border-radius: 0.375rem;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
 input[type=radio].sr-only div.s-price-range-bar {
   transition: all 0.3s;
@@ -11398,8 +11398,8 @@ input[type=radio].sr-only:checked ~ div.s-price-range-right-handle {
     border-radius: .75rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-right: 0.75rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -11492,8 +11492,8 @@ input[type=radio].sr-only:checked ~ div.s-price-range-currency {
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 @media (min-width: 640px) {
     .s-product-availability-header-icon {
@@ -11548,8 +11548,8 @@ input[type=radio].sr-only:checked ~ div.s-price-range-currency {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     font-size: 0.875rem;
@@ -11917,8 +11917,8 @@ input[type=radio].sr-only:checked ~ div.s-product-card-out-badge {
     line-height: 2.25rem;
     content: var(--tw-content);
     --tw-text-opacity: 1;
-    color: rgba(229, 231, 235, 1);
-    color: rgba(229, 231, 235, var(--tw-text-opacity, 1));
+    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, var(--tw-text-opacity, 1));
 }
 .s-product-card-image:hover {
     opacity: 0.9;
@@ -12454,8 +12454,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-colors-wrapper input[t
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     opacity: 0;
     transition-property: all;
     transition-duration: 300ms;
@@ -12503,8 +12503,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-colors-wrapper input[t
     width: 100%;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
 .dark *.s-product-options-donation-progress-wrapper {
     --tw-bg-opacity: 1;
@@ -12646,8 +12646,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-donation-amount-currun
     cursor: pointer;
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     color: #414042;
     color: var(--color-primary);
 }
@@ -12681,8 +12681,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-donation-amount-currun
     border-width: 2px;
     border-bottom-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .s-product-options-thumbnails-wrapper {
     display: grid;
@@ -12857,8 +12857,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-thumbnails-wrapper div
     border-width: 1px;
     border-style: dashed;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -12936,8 +12936,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-donation-amount-curren
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.625rem;
@@ -12987,7 +12987,7 @@ input[type=radio].sr-only:checked ~ div.s-product-options-donation-amount-curren
     line-height: 1rem;
     outline-style: solid;
     outline-width: 1px;
-    outline-color: #e5e7eb;
+    outline-color: #ffffff;
 }
 .s-product-options-digital-card-option * {
   pointer-events: none;
@@ -13130,15 +13130,15 @@ input[type=radio].sr-only:checked ~ div.s-product-options-grid-mode input[type=r
     width: 100%;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     line-height: 1.25rem;
 }
 .s-product-size-guide-skeleton-table td {
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding: 0.5rem;
     line-height: 1.25rem;
 }
@@ -13152,8 +13152,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-grid-mode input[type=r
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 @media (min-width: 640px) {
     .s-product-size-guide-header-icon {
@@ -13397,8 +13397,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-grid-mode input[type=r
     width: 100%;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
 .dark *.s-progress-bar-wrapper {
     --tw-bg-opacity: 1;
@@ -13441,8 +13441,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-grid-mode input[type=r
     border-top-width: 0px;
     border-bottom-width: 0px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     text-align: center;
@@ -13524,8 +13524,8 @@ input[type=radio].sr-only:checked ~ div.s-product-options-grid-mode input[type=r
     border-radius: .75rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding: 0.5rem;
 }
 .s-quick-order-expandable {
@@ -13817,8 +13817,8 @@ input[type=radio].sr-only:checked ~ div.s-quick-order-expandable .s-form-group >
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .s-rating-modal-title {
     margin-bottom: 1rem;
@@ -13852,8 +13852,8 @@ input[type=radio].sr-only:checked ~ div.s-quick-order-expandable .s-form-group >
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding: 0.75rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -13941,8 +13941,8 @@ input[type=radio].sr-only:checked ~ div.s-quick-order-expandable .s-form-group >
     height: 100%;
     width: 100%;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     --tw-content: '';
     content: '';
     content: var(--tw-content);
@@ -14062,8 +14062,8 @@ input[type=radio].sr-only:checked ~ div.s-quick-order-expandable .s-form-group >
     cursor: default;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     background-color: transparent;
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, 1);
@@ -14113,8 +14113,8 @@ input[type=radio].sr-only:checked ~ div.s-quick-order-expandable .s-form-group >
 }
 .s-rating-modal-bg-gray {
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
 .s-rating-modal-bg-primary {
     background-color: #414042;
@@ -14254,8 +14254,8 @@ unicode {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -14358,8 +14358,8 @@ unicode {
     justify-content: center;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.25rem;
@@ -14534,8 +14534,8 @@ input[type=radio].sr-only:checked ~ div.s-review-card-slider-dots {
     height: 1px;
     width: 100%;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
 .s-review-card-verified-icon {
     display: flex;
@@ -15168,8 +15168,8 @@ input[type=radio].sr-only:checked ~ div.s-reviews-testimonial__icon svg {
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(252, 252, 252, 1);
     background-color: rgba(252, 252, 252, var(--tw-bg-opacity, 1));
@@ -15297,8 +15297,8 @@ input[type=radio].sr-only:checked ~ div.s-scopes-search-icon {
             appearance: none;
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 0.875rem;
@@ -15462,16 +15462,16 @@ input[type=radio].s-scopes-sr-only:checked ~ div.absolute {
 .s-search-container-open .s-search-input {
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .s-search-no-results .s-search-input {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .s-search-input {
     height: 2.5rem;
@@ -15496,8 +15496,8 @@ input[type=radio].s-scopes-sr-only:checked ~ div.absolute {
 }
 .s-search-input:focus {
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-ring-color: transparent;
 }
 .s-search-input:where([dir="ltr"], [dir="ltr"] *) {
@@ -15549,8 +15549,8 @@ input[type=radio].sr-only:checked ~ div.s-search-icon-wrap {
     border-radius: 9999px;
     border-width: 2px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     border-right-color: #414042;
     border-right-color: var(--color-primary);
 }
@@ -15650,8 +15650,8 @@ input[type=radio].sr-only:checked ~ div.s-search-results {
     height: 100%;
     width: 100%;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     --tw-content: '';
     content: '';
     content: var(--tw-content);
@@ -15784,8 +15784,8 @@ input[type=radio].sr-only:checked ~ div.s-search-action {
     width: 100%;
     border-radius: 0.375rem;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
 .dark *.s-skeleton-item {
     --tw-bg-opacity: 1;
@@ -16399,7 +16399,7 @@ input[type=radio].sr-only:checked ~ div.s-slider-vertical .s-slider-thumbs-next 
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
     --tw-ring-inset: inset;
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(229, 231, 235, var(--tw-ring-opacity, 1));
+    --tw-ring-color: rgba(255, 255, 255, var(--tw-ring-opacity, 1));
     transition-property: box-shadow;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
@@ -16632,8 +16632,8 @@ input[type=radio].sr-only:checked ~ div.s-social-share-list {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.75rem;
@@ -16669,8 +16669,8 @@ input[type=radio].sr-only:checked ~ div.s-social-share-list {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     font-size: 0.875rem;
@@ -16793,8 +16793,8 @@ input[type=radio].sr-only:checked ~ div.s-social-share-list {
     height: 1rem;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgba(229, 231, 235, 1);
-    background-color: rgba(229, 231, 235, var(--tw-bg-opacity, 1));
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
 }
 input[type=radio].sr-only div.s-tiered-offer-progress-bg {
   transition: all 0.3s;
@@ -16911,8 +16911,8 @@ input[type=radio].sr-only:checked ~ div.s-tiered-offer-progress-fill {
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -16974,8 +16974,8 @@ input[type=radio].sr-only:checked ~ div.s-tiered-offer-progress-fill {
     border-width: 1px;
     border-top-width: 0px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -17164,8 +17164,8 @@ salla-user-menu div[slot='trigger'] {
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     -o-object-fit: cover;
        object-fit: cover;
 }
@@ -17314,7 +17314,7 @@ salla-user-menu div[slot='trigger'] {
     transition-duration: 300ms;
 }
 .s-user-menu-dropdown-item a:hover {
-    background-color: rgba(229, 231, 235, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 @media (min-width: 640px) {
     .s-user-menu-dropdown-item a {
@@ -17481,8 +17481,8 @@ input[type=radio].sr-only:checked ~ div.s-user-menu-red-dot .s-user-menu-avatar-
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     outline: 2px solid transparent;
     outline-offset: 2px;
     transition-property: opacity;
@@ -17567,8 +17567,8 @@ input[type=radio].sr-only:checked ~ div.s-user-menu-red-dot .s-user-menu-avatar-
 .s-user-settings-section {
     border-bottom-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -17667,8 +17667,8 @@ input[type=radio].sr-only:checked ~ div.s-user-menu-red-dot .s-user-menu-avatar-
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 @media (min-width: 640px) {
     .s-user-settings-confirmation-icon {
@@ -17765,8 +17765,8 @@ input[type=radio].sr-only:checked ~ div.s-user-menu-red-dot .s-user-menu-avatar-
     border-radius: .75rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     text-align: center;
@@ -17806,8 +17806,8 @@ input[type=radio].sr-only:checked ~ div.s-user-menu-red-dot .s-user-menu-avatar-
     border-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 @media (min-width: 640px) {
     .s-verify-header-icon {
@@ -18026,8 +18026,8 @@ input[type=radio].sr-only:checked ~ div.s-verify-back {
 }
 .s-wallet-unrated-text {
     --tw-text-opacity: 1;
-    color: rgba(229, 231, 235, 1);
-    color: rgba(229, 231, 235, var(--tw-text-opacity, 1));
+    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, var(--tw-text-opacity, 1));
 }
 .s-wallet-no-content {
     display: flex;
@@ -19049,8 +19049,8 @@ input[type=text]:disabled {
     width: 100%;
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     font-size: 0.875rem;
     line-height: 1.25rem;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
@@ -19245,7 +19245,7 @@ salla-button.copied i:before {
     justify-content: center;
     white-space: nowrap;
     border-radius: 9999px;
-    background-color: rgba(229, 231, 235, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding-left: 0.875rem;
     padding-right: 0.875rem;
     padding-top: 0.5rem;
@@ -19259,7 +19259,7 @@ salla-button.copied i:before {
   flex-grow: 0;
 }
 .btn--rounded-gray:hover {
-    background-color: rgba(229, 231, 235, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .btn--circle-gray {
     display: inline-flex;
@@ -19268,7 +19268,7 @@ salla-button.copied i:before {
     align-items: center;
     justify-content: center;
     border-radius: 9999px;
-    background-color: rgba(229, 231, 235, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     padding-top: 0.75rem;
@@ -19281,7 +19281,7 @@ salla-button.copied i:before {
     transition-duration: 150ms;
 }
 .btn--circle-gray:hover {
-    background-color: rgba(229, 231, 235, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .btn--icon {
     margin-left: 0.25rem;
@@ -19295,8 +19295,8 @@ salla-button.copied i:before {
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -19312,8 +19312,8 @@ salla-button.copied i:before {
 }
 .btn--icon:hover {
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-text-opacity: 1;
     color: rgba(75, 85, 99, 1);
     color: rgba(75, 85, 99, var(--tw-text-opacity, 1));
@@ -19420,8 +19420,8 @@ input[type=radio].sr-only:checked ~ div.btn--close {
     cursor: default;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     background-color: transparent;
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, 1);
@@ -19473,8 +19473,8 @@ input[type=radio].sr-only:checked ~ div.btn--close {
 .btn--outline {
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -19808,10 +19808,10 @@ input[type=radio].sr-only:checked ~ div.radio-images__badge {
 }
 .top-navbar .s-search-input {
     border-style: none;
-    background-color: rgba(229, 231, 235, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .top-navbar .s-search-input:hover {
-    background-color: rgba(229, 231, 235, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 @media (max-width: 640px) {
   .top-navbar .s-search-results {
@@ -19868,8 +19868,8 @@ input[type=radio].sr-only:checked ~ div.radio-images__badge {
 .topnav-link-item {
     display: inline-block;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1px;
@@ -19936,7 +19936,7 @@ input[type=radio].sr-only:checked ~ div.radio-images__badge {
     transition-duration: 300ms;
 }
 .menu-item:hover {
-    background-color: rgba(229, 231, 235, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 @media (min-width: 640px) {
     .menu-item {
@@ -19950,7 +19950,7 @@ input[type=radio].sr-only:checked ~ div.radio-images__badge {
     color: rgba(248, 113, 113, var(--tw-text-opacity, 1));
 }
 .menu-item.is-active {
-    background-color: rgba(229, 231, 235, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     color: #414042;
     color: var(--color-primary);
 }
@@ -20035,8 +20035,8 @@ input[type=radio].sr-only:checked ~ div.radio-images__badge {
     border-radius: 9999px;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     font-size: 1.25rem;
     line-height: 1.75rem;
     --tw-text-opacity: 1;
@@ -20197,8 +20197,8 @@ input[type=radio].sr-only:checked ~ div#nav-cart span {
 }
 .footer-is-light .store-footer .store-footer__inner {
     --tw-border-opacity: 1;
-    border-bottom-color: rgba(229, 231, 235, 1);
-    border-bottom-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-bottom-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(243, 244, 246, 1);
     background-color: rgba(243, 244, 246, var(--tw-bg-opacity, 1));
@@ -20276,7 +20276,7 @@ input[type=radio].sr-only:checked ~ div#nav-cart span {
   .main-menu .has-children .has-children:hover > a {
     color: #414042;
     color: var(--color-primary);
-    background-color: rgba(229, 231, 235, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
   }
   .main-menu .has-children > a:after {
     font-family: "sallaicons";
@@ -20691,8 +20691,8 @@ input[type=radio].sr-only:checked ~ div.dropdown__menu {
     border-radius: 1rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     padding-top: 0.125rem;
@@ -20769,8 +20769,8 @@ input[type=radio].sr-only:checked ~ div.dropdown__menu {
   border-width: 1px;
   border-style: dashed;
   --tw-border-opacity: 1;
-  border-color: rgba(229, 231, 235, 1);
-  border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -21100,8 +21100,8 @@ input[type=radio].sr-only:checked ~ div.s-block--hero-slider .swiper-slide .over
     border-radius: 0.375rem;
     border-style: dashed;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 @media (min-width: 480px) {
     .banner-entry h3.text-with-border {
@@ -21542,8 +21542,8 @@ input[type=radio].sr-only:checked ~ div.s-block--slider-with-bg .slider-bg:befor
     cursor: default;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     background-color: transparent;
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, 1);
@@ -21562,8 +21562,8 @@ input[type=radio].sr-only:checked ~ div.s-block--slider-with-bg .slider-bg:befor
 .s-block--slider-with-bg .s-slider-block__display-all {
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -21675,8 +21675,8 @@ input[type=radio].sr-only:checked ~ div.s-block--slider-with-bg .slider-bg:befor
     border-radius: 0.375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -22590,8 +22590,8 @@ input[type=radio].sr-only:checked ~ div.model-viewer__poster {
   border-width: 1px;
   border-style: dashed;
   --tw-border-opacity: 1;
-  border-color: rgba(229, 231, 235, 1);
-  border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity, 1));
@@ -22824,14 +22824,14 @@ input[type=radio].sr-only:checked ~ div#offer-corner-badge {
 .cart-options salla-product-options .s-form-control {
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .cart-options salla-product-options .s-datetime-picker-input {
     border-radius: 0.375rem;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .cart-options salla-product-options .s-product-options-multiple-options-wrapper {
     display: block !important;
@@ -23876,8 +23876,8 @@ body.font-dinnextltarabic-regular .btn--add-to-cart {
 }
 .even\:border-gray-200:nth-child(even) {
     --tw-border-opacity: 1;
-    border-color: rgba(229, 231, 235, 1);
-    border-color: rgba(229, 231, 235, var(--tw-border-opacity, 1));
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 .target\:btn:target {
     display: inline-flex;

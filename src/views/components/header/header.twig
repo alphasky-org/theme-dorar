@@ -5,6 +5,17 @@
 | cart.items_count | int     |                                 |
 | cart.total       | string  | Formatted total ex: "١٠٠ ر.س"   |
 #}
+<style>
+body {
+    background-color: #ffffff !important;
+}
+section.s-block.container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+</style>
 {% set important_links = theme.settings.get('important_links') %}
 <header class="store-header">
   {# Top Nav #}

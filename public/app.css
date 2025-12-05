@@ -144,11 +144,11 @@ lite-youtube.lyt-activated > .lty-playbtn {
 body.mm-ocd-opened{overflow-y:hidden;overscroll-behavior:none}
 .mm-ocd{position:fixed;top:0;right:0;bottom:100%;left:0;z-index:9999;overflow:hidden;overscroll-behavior:contain;background:rgba(0,0,0,0);transition-property:bottom,background-color;transition-duration:0s,.3s;transition-timing-function:ease;transition-delay:.45s,.15s}
 .mm-ocd--open{bottom:0;background:rgba(0,0,0,.25);transition-delay:0s}
-.mm-ocd__content{position:absolute;top:0;bottom:0;z-index:2;width:calc(100% - 51px);width:var(--mm-ocd-width);min-width:200px;min-width:var(--mm-ocd-min-width);max-width:440px;max-width:var(--mm-ocd-max-width);background:#fff;transition-property:transform;transition-duration:.3s;transition-timing-function:ease}
+.mm-ocd__content{position:absolute;top:0;bottom:0;z-index:2;width:80%;width:var(--mm-ocd-width);min-width:200px;min-width:var(--mm-ocd-min-width);max-width:440px;max-width:var(--mm-ocd-max-width);background:#fff;transition-property:transform;transition-duration:.3s;transition-timing-function:ease}
 .mm-ocd--left .mm-ocd__content{left:0;transform:translate3d(-100%,0,0)}
 .mm-ocd--right .mm-ocd__content{right:0;transform:translate3d(100%,0,0)}
 .mm-ocd--open .mm-ocd__content{transform:translate3d(0,0,0)}
-.mm-ocd__backdrop{position:absolute;top:0;bottom:0;z-index:3;width:max(calc(100% - 440px), min(calc(100% - (100% - 51px)), calc(100% - 200px)));width:max(calc(100% - 440px), min(calc(100% - calc(100% - 51px)), calc(100% - 200px)));width:max(calc(100% - var(--mm-ocd-max-width)), min(calc(100% - var(--mm-ocd-width)), calc(100% - var(--mm-ocd-min-width))));background:rgba(3,2,1,0)}
+.mm-ocd__backdrop{position:absolute;top:0;bottom:0;z-index:3;width:max(calc(100% - 440px), min(calc(100% - 80%), calc(100% - 200px)));width:max(calc(100% - var(--mm-ocd-max-width)), min(calc(100% - var(--mm-ocd-width)), calc(100% - var(--mm-ocd-min-width))));background:rgba(3,2,1,0)}
 .mm-ocd--left .mm-ocd__backdrop{right:0}
 .mm-ocd--right .mm-ocd__backdrop{left:0}
 .mm-spn,.mm-spn a,.mm-spn li,.mm-spn span,.mm-spn ul{display:block;padding:0;margin:0;box-sizing:border-box}
@@ -18232,21 +18232,19 @@ input[type=radio].sr-only:checked ~ div.s-wallet-table-tbody-tr a {
   --color-primary-reverse: #ff6767;
   --color-text: #7c8082;
   --bg-gray: rgba(198,199,206,0.10196);
-  --color-grey: #f5f7f9;
+  --color-grey: #ffffff;
   --color-light-grey: #eeeeee;
   /* font-size */
   --font-sm: 0.8685714286rem;
   /* font-family: ; */
   --font-main: "DINNextLTArabic";
   /* plugins */
-  --mm-ocd-width: calc(100% - 51px);
 }
 body {
   font-size: 15px;
   font-weight: 400;
   line-height: 26px;
-  color: #231f1e;
-  color: var(--main-text-color);
+  color: #ffffff;
   position: relative;
 }
 html {

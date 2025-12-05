@@ -8,10 +8,26 @@
 | position              | Int       | Sorting number start from zero                                   |
 | limit                 | int       | Number of products to be shown                                   |
 #}
+<style>
+.right-side h2 {
+    color: #b08046;
+    font-size: 60px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+@media (min-width: 640px) {
+    .s-block {
+         margin-top: 0px; 
+    }
+}
+.s-block {
+    margin-top: 0px; 
+}
+</style>
 {% set is_vertical = theme.settings.get('vertical_fixed_products', true) %}
 <section class="s-block container">
     {% if title %}
-      <div class="s-block__title"  style="background-image: url('{{ 'images/product-title.png' | asset }}');">
+      <div class="s-block__title"  style="background-image: url('{{ 'images/product-title.png' | asset }}');height: 218px;">
        
         <div class="right-side">
           <h2>{{ title }}</h2>

@@ -320,7 +320,7 @@
                             "id": "slides.image",
                             "label": "صورة البنر",
                             "format": "image",
-                            "required": true,
+                            "required": false,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
                         },
@@ -331,7 +331,7 @@
                             "id": "slides.image1",
                             "label": "صورة البنر",
                             "format": "image",
-                            "required": true,
+                            "required": false,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
                         },

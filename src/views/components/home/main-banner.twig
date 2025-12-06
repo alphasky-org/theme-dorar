@@ -3,19 +3,24 @@
 |-------------|---------|------------------------------------------------------------------|
 | url         | string  |                                                                  |
 | image.url   | string  |                                                                  |
-| image.alt   | ?string |                                                                  |
+| image_1.url | string  |                                                                  |
+| title       | ?string |                                                                  |
 | position    | Int     | Sorting number start from zero                                   |
 #}
-<section class="s-block s-block--fixed-banner wide-placeholder">
+<section class="s-block s-block--main-banner wide-placeholder">
     <div class="container3">
-         <img src="{{'images/s-empty.png' | asset}}" data-src="{{ image.url }}" alt="{{ image.alt }}" />
-		<h3>uuu{{ item.title }}</h3>
-			<h3>jjj{{ title }}</h3>
-				<h3>mmm{{ title }}</h3>
-				<img width="1200" height="300" src="{{ image.url }}" fetchpriority="high"/>
-				<img width="1200" height="300" src="{{ image_1.url }}" fetchpriority="high"/>
-							<img width="1200" height="300" src="{{ image }}" fetchpriority="high"/>
-jhgjdj
-      
+         {% if title %}
+        <div class="s-block__title">
+            <div class="right-side">
+                <h2>{{ title }}</h2>
+            </div>
+        </div>
+    {% endif %}
+
+        {# Desktop Image #}
+        <img width="1200" height="300" data-src="{{ image.url }}" fetchpriority="high" class="hidden sm:block" />
+
+        {# Mobile Image #}
+        <img width="1200" height="300" src="{{ image_1.url }}" fetchpriority="high" class="sm:hidden" />
     </div>
 </section>

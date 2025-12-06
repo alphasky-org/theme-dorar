@@ -47,23 +47,29 @@ section.s-block.container {
         grid-template-columns: repeat(1, minmax(0, 1fr)) !important;       
     }
 }
-.store-header{
+.store-header,.main-nav-container.fixed-header .inner{
      background-image: url('{{ 'images/product-title.png' | asset }}');
  background-position: center top;
     background-repeat: no-repeat;
-    height: 166px;
+    
     width: 100%;
     margin: 0;
     padding: 0;
     background-size: cover;
     color: #fff !important;
 }
-#mainnav{
+.store-header{
+height: 166px;
+}
+#mainnav,.s-user-menu-trigger{
     background: unset !important;
 }
 .s-cart-summary-total {  
     color: rgb(255 255 255);
 }
+    .main-menu li > a:hover {
+        color: var(--color-primary-reverse) !important;
+    }
 </style>
 
 <header class="store-header">

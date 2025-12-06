@@ -47,8 +47,25 @@ section.s-block.container {
         grid-template-columns: repeat(1, minmax(0, 1fr)) !important;       
     }
 }
+.store-header{
+     background-image: url('{{ 'images/product-title.png' | asset }}');
+ background-position: center top;
+    background-repeat: no-repeat;
+    height: 166px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: #fff !important;
+}
+#mainnav{
+    background: unset !important;
+}
+.s-cart-summary-total {  
+    color: rgb(255 255 255);
+}
 </style>
-{% set important_links = theme.settings.get('important_links') %}
+
 <header class="store-header">
   {# Top Nav #}
   <div class="top-navbar">
@@ -78,13 +95,10 @@ section.s-block.container {
               </button>
           {% endif %}
 
-          {# Search bar #}
-          <div class="header-search flex-1">
-            <salla-search inline oval height="36"></salla-search>
-          </div>
+        
       </div>
 
-      <salla-contacts is-header></salla-contacts>
+     
     </div>
   </div>
 
@@ -125,5 +139,5 @@ section.s-block.container {
   </div>
 </header>
 {% if store.scope %}
-    <salla-scopes selection="{{ store.scope.display_as == 'popup' ? 'mandatory' : 'optional' }}"></salla-scopes>
+    <salla-scopes selection="mandatory"></salla-scopes>
 {% endif %}

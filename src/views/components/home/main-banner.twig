@@ -9,18 +9,18 @@
 #}
 <section class="s-block s-block--main-banner wide-placeholder">
     <div class="container3">
-         {% if title %}
+         {% if component.title %}
         <div class="s-block__title">
             <div class="right-side">
-                <h2>{{ title }}</h2>
+                <h2>{{ component.title }}</h2>
             </div>
         </div>
     {% endif %}
 
         {# Desktop Image #}
-        <img width="1200" height="300" data-src="{{ image.url }}" fetchpriority="high" class="hidden sm:block" />
+        <img style="width: 100%;" src="{{ component.image }}" fetchpriority="high" class="hidden sm:block" />
 
         {# Mobile Image #}
-        <img width="1200" height="300" src="{{ image_1.url }}" fetchpriority="high" class="sm:hidden" />
+        <img style="width: 100%;" src="{{ component.image_1 }}" fetchpriority="high" class="sm:hidden" />
     </div>
 </section>

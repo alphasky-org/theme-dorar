@@ -227,7 +227,7 @@ class ProductCard extends HTMLElement {
               </svg>
             </div>`
             : ``}
-
+ 
           <div class="s-product-card-content-main ${this.isSpecial ? 's-product-card-content-extra-padding' : ''}">
             <h3 class="s-product-card-content-title nnn">
               <a href="${this.product?.url}">${this.product?.name}</a>

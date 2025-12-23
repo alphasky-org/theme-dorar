@@ -86,7 +86,7 @@ class ProductCard extends HTMLElement {
     let price = '';
     if (this.product.is_on_sale) {
       price = `<div class="s-product-card-sale-price">
-                <h4>${this.getPriceFormat(this.product.sale_price)}
+                <h4>${this.getPriceFormat(this.product.sale_price)} / للأوقية
                 <span style="color:red;text-decoration-line: line-through;font-size:14px">${this.getPriceFormat(this.product?.regular_price)}</span></h4>
                
               </div>`;
@@ -257,7 +257,7 @@ class ProductCard extends HTMLElement {
           </div>`
             : ''}
           <div class="s-product-card-content-sub ${this.isSpecial ? 's-product-card-content-extra-padding' : ''}">
-            ${this.product?.donation?.can_donate ? '' : this.getProductPrice()} / للأوقية
+            ${this.product?.donation?.can_donate ? '' : this.getProductPrice()} 
             ${this.product?.rating?.stars ?
               `<div class="s-product-card-rating">
                 <i class="sicon-star2 before:text-orange-300"></i>

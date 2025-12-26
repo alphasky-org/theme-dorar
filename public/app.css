@@ -12081,8 +12081,9 @@ input[type=radio].sr-only:checked ~ div.s-product-card-out-badge {
     font-weight: 700;
 }
 .s-product-card-image-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
+       background: #fff;
 }
 .s-product-card-image-contain {
     -o-object-fit: contain;

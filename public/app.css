@@ -11898,8 +11898,7 @@ input[type=radio].sr-only:checked ~ div.s-product-card-out-badge {
     flex-shrink: 0;
     overflow: hidden;
     --tw-bg-opacity: 1;
-    background-color: rgba(243, 244, 246, 1);
-    background-color: rgba(243, 244, 246, var(--tw-bg-opacity, 1));
+    background-color: #fff;
 }
 .s-product-card-image::before {
     position: absolute;

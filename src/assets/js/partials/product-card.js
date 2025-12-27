@@ -231,7 +231,7 @@ class ProductCard extends HTMLElement {
  
           <div class="s-product-card-content-main ${this.isSpecial ? 's-product-card-content-extra-padding' : ''}">
             <h3 class="s-product-card-content-title nnn">
-              <a href="${this.product?.url}">${(this.product?.name || '').split('-').join('<br><br>')}</a>
+              <a href="${this.product?.url}">${(this.product?.name || '').replace(/ـ/g, '-').split('-').join('<br><br>')}</a>
             </h3>
 
             ${this.product?.subtitle && !this.minimal ?

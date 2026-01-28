@@ -11898,7 +11898,8 @@ input[type=radio].sr-only:checked ~ div.s-product-card-out-badge {
     flex-shrink: 0;
     overflow: hidden;
     --tw-bg-opacity: 1;
-    background-color: #fff;
+    background-color: rgba(243, 244, 246, 1);
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity, 1));
 }
 .s-product-card-image::before {
     position: absolute;
@@ -11920,7 +11921,7 @@ input[type=radio].sr-only:checked ~ div.s-product-card-out-badge {
     opacity: 0.9;
 }
 .s-product-card-image img {
-    height: 500px;
+    height: 100%;
     width: 100%;
     opacity: 0;
     transition-property: opacity;

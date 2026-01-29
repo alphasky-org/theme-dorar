@@ -1,0 +1,103 @@
+
+{#
+| Variable              | Type      | Description                                                      |
+|-----------------------|-----------|------------------------------------------------------------------|
+| products.source       | string    |                                                                  |
+| products.source_value | ?int[]    | ids of sources (product_ids, categories_ids, brands_id..etc)     |
+| title                 | string    | Section title                                                    |
+| display_all_url       | ?string   | If it's existed, mean should show load more link to this url     |
+| position              | Int       | Sorting number start from zero                                   |
+| limit                 | int       | Number of products to be shown                                   |
+#}
+<style>
+.right-side h2 {
+    color: #b08046;
+    font-size: 32px !important;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+@media (min-width: 640px) {
+    .s-block {
+         margin-top: 0px; 
+    }
+}
+.s-block {
+    margin-top: 0px; 
+}
+.s-product-card-content-title a {
+    font-size: 23px !important;
+    color: #b08046 !important;
+}
+.s-product-card-content-title {
+  
+    text-align: center;
+    background-image: url('{{ 'images/product-up.png' | asset }}');
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+.s-product-card-content-sub {
+    display: block !important;
+       background-image: url('{{ 'images/product-down.png' | asset }}');
+       background-position: bottom center;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    text-align: center !important;
+}
+h2.total-price {
+    color:  #b08046 !important;
+}
+.s-product-card-sale-price h4 {
+   font-size: 16px !important;
+    color: #b08046 !important;
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+    font-weight: 100 !important;
+}
+</style>
+
+{% set is_vertical = theme.settings.get('vertical_fixed_products', true) %}
+ {% set is_n = 0 %}
+<section class="s-block container">
+    {% if title == "-" %}
+     {% set is_n = 1 %}
+     {% endif %}
+     {% if title == "*" %} 
+      {% set is_n = 1 %}
+        <div class="s-block__title greenline no-title">
+       
+        <div class="right-side">
+         <h2></h2>
+        </div>
+     
+      </div>
+      <div class="dorarline"></div>
+     
+      {% endif %}
+       {% if is_n == 0 %} 
+       <div class="s-block__title greenline no-titlex">
+       
+        <div class="right-side">
+          <h2>{{ title }}</h2>        
+        </div>
+     
+      </div>
+      <div class="dorarline"></div>
+    {% endif %}
+
+        <salla-products-list
+            source="{{ products.source }}"
+            limit="{{ limit }}"
+            source-value="{{ products.source_value|json_encode }}"
+            class="{{is_vertical ? 'vertical-products' : 'horizontal-products'}}"
+            {{is_vertical ? '' : 'horizontal-cards'}}
+            data-is-n="{{ is_n }}"
+            >
+        </salla-products-list>
+    <div class="dorarline"></div>
+    <div class="greenline">
+    </div>
+</section>
+
+

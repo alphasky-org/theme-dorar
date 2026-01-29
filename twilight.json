@@ -379,6 +379,107 @@
                 }
             ]
         },
+               {
+            "key": "80Bassam-25cf-4d3c-abca-cef7teb6f4ab",
+            "title": {
+                "en": "Main Products",
+                "ar": "منتجات رئيسية"
+            },
+            "icon": "sicon-image-carousel",
+            "path": "home.main-products",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "عنوان رئيسي",
+                    "description": "عنوان البانر",
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                               {
+                    "id": "extends",
+                    "type": "string",
+                    "format": "text",
+                    "label": "السعر لكل",
+                    "description": "تولة , اوقية , غرام الخ",
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                              {
+                    "id": "source",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "حدد التصنيفات",
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "categories",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false,
+                    "conditions": [
+                        {
+                            "id": "show_cats",
+                            "operation": "=",
+                            "value": true
+                        }
+                    ]
+                },
+                  {
+                            "id": "limit",
+                            "type": "number",
+                            "format": "integer",
+                            "label": "عدد المنتجات للعرض",
+                            "description": null,
+                            "key": "f0caf793-88f8-4178-b1cc-a7ace5c09ff6",
+                            "labelHTML": "من 3 إلى 50",
+                            "placeholder": "القيمة",
+                            "icon": "sicon-pencil-ruler",
+                            "value": 21,
+                            "required": false,
+                            "minimum": 3,
+                            "maximum": 50
+                        },
+                {
+                    "id": "showgreen",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "إظهار الترويسة الخضراء في الأعلى",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": true,
+                    "required": false
+                },
+                {
+                    "id": "dorarline",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "إظهار إطار درر في الأسفل",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": false,
+                    "required": false
+                }
+            ]
+        },
         {
             "key": "2b1b130b-5b37-422a-9683-e0fd367460c0",
             "title": {

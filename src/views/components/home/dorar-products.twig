@@ -73,7 +73,7 @@ h2.total-price {
         <salla-products-list
             source="categories"
             limit="{{ component.limit }}"
-            source-value="{{ component.source|json_decode.id }}"
+            source-value="{{ component.source|json_decode[0].id }}"
             class="vertical-products"           
             data-is-n="{{ component.extends }}"
             >

@@ -1207,6 +1207,16 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "2b1fc000-0ce9-4bd6-9288-fa7981fc3229",
+            "title": {
+                "en": "Dorar Products",
+                "ar": "منتجات درر"
+            },
+            "icon": "sicon-store",
+            "path": "home.dorar-products",
+            "fields": []
         }
     ],
     "support_url": "https://alphasky.org/",

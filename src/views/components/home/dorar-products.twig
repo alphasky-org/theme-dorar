@@ -56,25 +56,8 @@ h2.total-price {
 }
 </style>
 
-{% set is_vertical = theme.settings.get('vertical_fixed_products', true) %}
- {% set is_n = 0 %}
 <section class="s-block container">
-    {% if title == "-" %}
-     {% set is_n = 1 %}
-     {% endif %}
-     {% if title == "*" %} 
-      {% set is_n = 1 %}
-        <div class="s-block__title greenline no-title">
-       
-        <div class="right-side">
-         <h2></h2>
-        </div>
-     
-      </div>
-      <div class="dorarline"></div>
-     
-      {% endif %}
-       {% if is_n == 0 %} 
+  TEST BASSAM
        <div class="s-block__title greenline no-titlex">
        
         <div class="right-side">
@@ -83,15 +66,15 @@ h2.total-price {
      
       </div>
       <div class="dorarline"></div>
-    {% endif %}
+  
 
         <salla-products-list
             source="{{ products.source }}"
             limit="{{ limit }}"
             source-value="{{ products.source_value|json_encode }}"
-            class="{{is_vertical ? 'vertical-products' : 'horizontal-products'}}"
+            class="horizontal-products"
             {{is_vertical ? '' : 'horizontal-cards'}}
-            data-is-n="{{ is_n }}"
+            data-is-n="{{ extends }}"
             >
         </salla-products-list>
     <div class="dorarline"></div>

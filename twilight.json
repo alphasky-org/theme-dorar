@@ -424,9 +424,9 @@
                     "selected": [],
                     "options": [],
                     "source": "Categories",
-                    "multichoice": true,
+                    "multichoice": false,
                     "searchable": true,
-                    "required": false,
+                    "required": true,
                     "conditions": [
                         {
                             "id": "show_cats",

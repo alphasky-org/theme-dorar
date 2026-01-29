@@ -68,9 +68,11 @@ h2.total-price {
      
       </div>
        
-      <div class="dorarline"></div>
+    
    {% endif %}
-
+    {% if component.dorarlineup %}
+  <div class="dorarline"></div>
+    {% endif %}
         <salla-products-list
             source="categories"
             limit="{{ component.limit }}"
@@ -79,10 +81,12 @@ h2.total-price {
             data-dataisn="{{ component.extends }}"
             >
         </salla-products-list>
-        {% if component.dorarline %}
-    <div class="dorarline"></div>
-    <div class="greenline"></div>
-    {% endif %}
+         {% if component.dorarlinedown %}
+            <div class="dorarline"></div>
+         {% endif %}
+        {% if component.showgreendown %}   
+            <div class="greenline"></div>
+        {% endif %}
 </section>
 
 

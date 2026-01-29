@@ -61,7 +61,8 @@ h2.total-price {
        <div class="s-block__title greenline no-titlex">
        
         <div class="right-side">
-          <h2>{{ component.title }}</h2>        
+          <h2>{{ component.title }}</h2>   222 
+          {{ component.source }}    
         </div>
      
       </div>
@@ -72,7 +73,7 @@ h2.total-price {
         <salla-products-list
             source="categories"
             limit="{{ component.limit }}"
-            source-value="{{ component.source.id|json_encode }}"
+            source-value="{{ component.source|json_decode.id }}"
             class="vertical-products"           
             data-is-n="{{ component.extends }}"
             >

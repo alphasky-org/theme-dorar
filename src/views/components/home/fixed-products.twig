@@ -85,14 +85,15 @@ h2.total-price {
       <div class="dorarline"></div>
     {% endif %}
 
-    <salla-products-list
-      source="{{ products.source }}"
-      limit="{{ limit }}"
-      source-value="{{ products.source_value|json_encode }}"
-      class="{{is_vertical ? 'vertical-products' : 'horizontal-products'}}"
-      {{is_vertical ? '' : 'horizontal-cards'}}
-      >
-    </salla-products-list>
+        <salla-products-list
+            source="{{ products.source }}"
+            limit="{{ limit }}"
+            source-value="{{ products.source_value|json_encode }}"
+            class="{{is_vertical ? 'vertical-products' : 'horizontal-products'}}"
+            {{is_vertical ? '' : 'horizontal-cards'}}
+            data-is-n="{{ is_n }}"
+            >
+        </salla-products-list>
     <div class="dorarline"></div>
     <div class="greenline">
     </div>

@@ -20,12 +20,20 @@ class ProductCard extends HTMLElement {
       this.placeholder = salla.url.asset(salla.config.get('theme.settings.placeholder'));
       this.getProps()
 
-	  this.source = salla.config.get("page.slug");
+      this.source = salla.config.get("page.slug");
       // If the card is in the landing page, hide the add button and show the quantity
-	  if (this.source == "landing-page") {
-	  	this.hideAddBtn = true;
-	  	this.showQuantity = window.showQuantity;
-	  }
+      if (this.source == "landing-page") {
+        this.hideAddBtn = true;
+        this.showQuantity = window.showQuantity;
+      }
+
+      // قراءة متغير is_n من أقرب عنصر أب لديه data-is-n
+      let parentProductsList = this.closest('salla-products-list');
+      if (parentProductsList && parentProductsList.hasAttribute('data-is-n')) {
+        this.is_n = parentProductsList.getAttribute('data-is-n') == '1';
+      } else {
+        this.is_n = false;
+      }
 
       salla.lang.onLoaded(() => {
         // Language
@@ -85,7 +93,7 @@ class ProductCard extends HTMLElement {
   getProductPrice() {
     let price = '';
     let pxtend = '';
-    if (is_n == 1){
+    if (this.is_n){
       pxtend = ' / ggfg' ;
     }
     if (this.product.is_on_sale) {

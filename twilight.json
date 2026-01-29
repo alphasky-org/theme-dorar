@@ -418,22 +418,15 @@
                     "id": "source",
                     "type": "items",
                     "format": "dropdown-list",
-                    "label": "حدد التصنيفات",
+                    "label": "حدد التصنيف",
                     "labelHTML": null,
                     "icon": "sicon-keyboard_arrow_down",
-                    "selected": [],
-                    "options": [],
+                 
                     "source": "Categories",
                     "multichoice": false,
                     "searchable": true,
                     "required": true,
-                    "conditions": [
-                        {
-                            "id": "show_cats",
-                            "operation": "=",
-                            "value": true
-                        }
-                    ],
+                   
                     "value": []
                 },
                 {

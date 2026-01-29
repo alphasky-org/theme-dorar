@@ -57,11 +57,11 @@ h2.total-price {
 </style>
 
 <section class="s-block container">
-  TEST BASSAM
+  
        <div class="s-block__title greenline no-titlex">
        
         <div class="right-side">
-          <h2>{{ title }}</h2>        
+          <h2>{{ title }} | {{ limit }} | {{ source }} | {{ source_value }} | {{ extends }}</h2>        
         </div>
      
       </div>
@@ -69,10 +69,10 @@ h2.total-price {
   
 
         <salla-products-list
-            source="{{ products.source }}"
+            source="{{ source }}"
             limit="{{ limit }}"
-            source-value="{{ products.source_value|json_encode }}"
-            class="horizontal-products"
+            source-value="{{ source_value|json_encode }}"
+            class="vertical-products"
             {{is_vertical ? '' : 'horizontal-cards'}}
             data-is-n="{{ extends }}"
             >

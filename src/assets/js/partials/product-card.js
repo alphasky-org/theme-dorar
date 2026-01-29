@@ -93,8 +93,12 @@ class ProductCard extends HTMLElement {
   getProductPrice() {
     let price = '';
     let pxtend = '';
-    if (this.is_n){
-      pxtend = ' / ggfg' ;
+    
+    let parentProductsList = this.closest('salla-products-list');
+    let dataisn = parentProductsList ? parentProductsList.getAttribute('data-dataisn') : null;
+    console.log('bassam',dataisn);
+    if (dataisn){
+      pxtend = ' / ' + dataisn ;
     }
     if (this.product.is_on_sale) {
       price = `<div class="s-product-card-sale-price">

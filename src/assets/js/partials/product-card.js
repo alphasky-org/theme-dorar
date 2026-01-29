@@ -84,9 +84,13 @@ class ProductCard extends HTMLElement {
 
   getProductPrice() {
     let price = '';
+    let pxtend = '';
+    if (is_n == 1){
+      pxtend = ' / ggfg' ;
+    }
     if (this.product.is_on_sale) {
       price = `<div class="s-product-card-sale-price">
-                <h4>${this.getPriceFormat(this.product.sale_price)} / للأوقية
+                <h4>${this.getPriceFormat(this.product.sale_price)} ${pxtend}
                 <span style="color:red;text-decoration-line: line-through;font-size:14px">${this.getPriceFormat(this.product?.regular_price)}</span></h4>
                
               </div>`;

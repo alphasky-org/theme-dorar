@@ -376,11 +376,47 @@
                     "value": true,
                     "selected": false,
                     "required": false
+                },
+                {
+                    "id": "dropdown_list",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "Dropdown List",
+                    "description": "القسم",
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [
+                        {
+                            "label": "العود",
+                            "value": "section1",
+                            "key": "7a056379-3764-4ebd-91a6-a6cac6ace49b"
+                        },
+                        {
+                            "label": "العطور",
+                            "value": "section2",
+                            "key": "a40f27a7-555f-4692-95ab-95dae98e203c"
+                        },
+                        {
+                            "label": "الأدهان",
+                            "value": "section3",
+                            "key": "4bb397cd-ba72-4633-811a-0821e163b07f"
+                        },
+                        {
+                            "label": "الاكسسورات",
+                            "value": "section4",
+                            "key": "01c41011-a6ce-4453-9700-087accd23df8"
+                        }
+                    ],
+                    "source": "Manual",
+                    "multichoice": false,
+                    "searchable": false,
+                    "required": false
                 }
             ]
         },
         {
-             "key": "2b1fc000-0ce9-4bd6-9288-fa7981fc3229",
+            "key": "2b1fc000-0ce9-4bd6-9288-fa7981fc3229",
             "title": {
                 "en": "Dorar Products",
                 "ar": "منتجات درر"
@@ -421,12 +457,10 @@
                     "label": "حدد التصنيف",
                     "labelHTML": null,
                     "icon": "sicon-keyboard_arrow_down",
-                 
                     "source": "Categories",
                     "multichoice": false,
                     "searchable": true,
                     "required": true,
-                   
                     "value": []
                 },
                 {

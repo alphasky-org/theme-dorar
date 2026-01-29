@@ -110,7 +110,7 @@ class ProductCard extends HTMLElement {
               </div>`
     }
     else{
-      price = `<h2 class="total-price font-bold text-xl inline-block" style="opacity: 1; transform: scale(1);">${this.getPriceFormat(this.product?.price)}</h2>`
+      price = `<h2 class="total-price font-bold text-xl inline-block ddr333" style="opacity: 1; transform: scale(1);">${this.getPriceFormat(this.product?.price)}</h2>`
     }
 
     return price;

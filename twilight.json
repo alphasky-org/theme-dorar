@@ -379,13 +379,13 @@
                 }
             ]
         },
-               {
+        {
             "key": "80Bassam-25cf-4d3c-abca-cef7teb6f4ab",
             "title": {
                 "en": "Main Products",
                 "ar": "منتجات رئيسية"
             },
-            "icon": "sicon-image-carousel",
+            "icon": "sicon-cart2",
             "path": "home.main-products",
             "fields": [
                 {
@@ -403,7 +403,7 @@
                     "minLength": 6,
                     "maxLength": 30
                 },
-                               {
+                {
                     "id": "extends",
                     "type": "string",
                     "format": "text",
@@ -418,7 +418,7 @@
                     "minLength": 6,
                     "maxLength": 30
                 },
-                              {
+                {
                     "id": "source",
                     "type": "items",
                     "format": "dropdown-list",
@@ -439,20 +439,20 @@
                         }
                     ]
                 },
-                  {
-                            "id": "limit",
-                            "type": "number",
-                            "format": "integer",
-                            "label": "عدد المنتجات للعرض",
-                            "description": null,                          
-                            "labelHTML": "من 3 إلى 50",
-                            "placeholder": "القيمة",
-                            "icon": "sicon-pencil-ruler",
-                            "value": 21,
-                            "required": false,
-                            "minimum": 3,
-                            "maximum": 50
-                        },
+                {
+                    "id": "limit",
+                    "type": "number",
+                    "format": "integer",
+                    "label": "عدد المنتجات للعرض",
+                    "description": null,
+                    "labelHTML": "من 3 إلى 50",
+                    "placeholder": "القيمة",
+                    "icon": "sicon-pencil-ruler",
+                    "value": 21,
+                    "required": false,
+                    "minimum": 3,
+                    "maximum": 50
+                },
                 {
                     "id": "showgreen",
                     "type": "boolean",

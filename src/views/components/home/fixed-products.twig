@@ -56,20 +56,25 @@ h2.total-price {
 }
 </style>
 {% set is_vertical = theme.settings.get('vertical_fixed_products', true) %}
+ {% set is_n = 0 %}
 <section class="s-block container">
     {% if title == "-" %}
-     
-     {% else if title == "--" %} 
-        <div class="s-block__title greenline">
+     {% set is_n = 1 %}
+     {% endif %}
+     {% if title == "*" %} 
+      {% set is_n = 1 %}
+        <div class="s-block__title greenline no-title">
        
         <div class="right-side">
-         
+         <h2>vvv</h2>
         </div>
      
       </div>
       <div class="dorarline"></div>
-      {% else %}
-       <div class="s-block__title greenline">
+     
+      {% endif %}
+       {% if is_n == 0 %} 
+       <div class="s-block__title greenline no-titlex">
        
         <div class="right-side">
           <h2>{{ title }}</h2>        

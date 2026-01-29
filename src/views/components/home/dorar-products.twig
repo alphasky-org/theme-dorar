@@ -57,29 +57,30 @@ h2.total-price {
 </style>
 
 <section class="s-block container">
-  
+  {% if component.showgreen %}
        <div class="s-block__title greenline no-titlex">
        
         <div class="right-side">
-          <h2>{{ title }} | {{ limit }} | {{ source }} | {{ source_value }} | {{ extends }}</h2>        
+          <h2>{{ component.title }}</h2>        
         </div>
      
       </div>
+       
       <div class="dorarline"></div>
-  
+   {% endif %}
 
         <salla-products-list
-            source="{{ source }}"
-            limit="{{ limit }}"
-            source-value="{{ source_value|json_encode }}"
-            class="vertical-products"
-            {{is_vertical ? '' : 'horizontal-cards'}}
-            data-is-n="{{ extends }}"
+            source="categories"
+            limit="{{ component.limit }}"
+            source-value="{{ component.source.id|json_encode }}"
+            class="vertical-products"           
+            data-is-n="{{ component.extends }}"
             >
         </salla-products-list>
+        {% if component.dorarline %}
     <div class="dorarline"></div>
-    <div class="greenline">
-    </div>
+    <div class="greenline"></div>
+    {% endif %}
 </section>
 
 

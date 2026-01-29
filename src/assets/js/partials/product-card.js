@@ -106,11 +106,11 @@ class ProductCard extends HTMLElement {
     else if (this.product.starting_price) {
       price = `<div class="s-product-card-starting-price">
                   <p>${this.startingPrice}</p>
-                  <h4> ${this.getPriceFormat(this.product?.starting_price)} </h4>
+                  <h4> ${this.getPriceFormat(this.product?.starting_price)}  ${pxtend}</h4>
               </div>`
     }
     else{
-      price = `<h2 class="total-price font-bold text-xl inline-block ddr333" style="opacity: 1; transform: scale(1);">${this.getPriceFormat(this.product?.price)}</h2>`
+      price = `<h2 class="total-price font-bold text-xl inline-block ddr333" style="opacity: 1; transform: scale(1);">${this.getPriceFormat(this.product?.price)}  ${pxtend}</h2>`
     }
 
     return price;

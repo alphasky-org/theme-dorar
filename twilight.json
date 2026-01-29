@@ -427,7 +427,7 @@
                     "icon": "sicon-keyboard_arrow_down",
                     "selected": [],
                     "options": [],
-                    "source": "categories",
+                    "source": "Categories",
                     "multichoice": true,
                     "searchable": true,
                     "required": false,
@@ -437,7 +437,8 @@
                             "operation": "=",
                             "value": true
                         }
-                    ]
+                    ],
+                    "value": []
                 },
                 {
                     "id": "limit",

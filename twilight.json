@@ -378,10 +378,10 @@
                     "required": false
                 },
                 {
-                    "id": "dropdown_list",
+                    "id": "sectionid",
                     "type": "items",
                     "format": "dropdown-list",
-                    "label": "Dropdown List",
+                    "label": "إختر القسم",
                     "description": "القسم",
                     "labelHTML": null,
                     "icon": "sicon-keyboard_arrow_down",

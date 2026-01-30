@@ -58,15 +58,13 @@
         }
 
         /* Right Section: Contact and QR */
-        .right-section {
-            flex: 1.2;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 60px 50px;
-            text-align: left;
-        }
-
+    .right-section {
+    flex: 1.2;
+    display: block;
+    padding: 50px;
+    text-align: center;
+    padding-top: 54px;
+}
         /* Top part of right section: QR Code */
         .qr-area {
             display: flex;
@@ -75,7 +73,19 @@
             align-self: flex-end;
             margin-bottom: 20px;
         }
-
+.contact-item a {
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
         .qr-code {
             background: white;
             padding: 10px;
@@ -93,12 +103,10 @@
         }
 
         .website-url {
-            margin-top: 10px;
-            font-size: 18px;
-            color: white;
-            text-decoration: none;
-            font-weight: 400;
-            letter-spacing: 0.5px;
+          font-size: 13px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
         }
 
         /* Bottom part of right section: Contact details */
@@ -109,14 +117,7 @@
             gap: 15px;
         }
 
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            font-size: 22px;
-            text-decoration: none;
-            color: white;
-        }
+    
 
         .contact-item img {
             width: 30px;
@@ -131,27 +132,26 @@
             width: 100%;
         }
 
-        .social-handle {
-            font-size: 28px;
-            margin-left: 15px;
-            font-weight: 500;
-        }
+       .social-handle {
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 500;
+}
 
         .social-icons-group {
             display: flex;
             gap: 10px;
         }
 
-        .social-icon-circle {
-            background: white;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
+     .social-icon-circle {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
         .social-icon-circle img {
             width: 22px;
             height: 22px;
@@ -198,8 +198,7 @@
             <div class="logo-box">
                 <img src="{{ 'images/footer-logo.png' | asset }}" alt="Dorar Logo" style="width: 100%; height: auto;">
             </div>
-            <h1 class="brand-name">DORAR</h1>
-            <div class="brand-sub">عود وعطور</div>
+           
         </div>
 
         <!-- Right Panel: Contact Information -->

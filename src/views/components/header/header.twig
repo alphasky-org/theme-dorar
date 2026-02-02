@@ -125,6 +125,34 @@ height: 166px;
    
 }
 
+h2.total-price {
+    color:  #b08046 !important;
+}
+.s-product-card-sale-price h4,.s-product-card-sale-price h2 {
+   font-size: 1.25rem !important;
+    color: #b08046 !important;
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+    font-weight: 700 !important;
+}
+.s-product-card-sale-price {
+    display: inline-flex;
+}
+/* إذا كان هناك عنصر واحد فقط */
+custom-salla-product-card:first-child:last-child {
+    grid-column: 2; /* يوضع في العمود الثاني (المنتصف) */
+}
+
+/* إذا كان هناك عنصرين فقط */
+/* العنصر الأول */
+custom-salla-product-card:first-child:nth-last-child(2) {
+    grid-column: 1; /* أقصى اليمين */
+}
+/* العنصر الثاني */
+custom-salla-product-card:nth-child(2):last-child {
+    grid-column: 3; /* أقصى اليسار */
+}
 </style>
 
 <header class="store-header greenline">
